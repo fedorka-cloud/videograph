@@ -26,8 +26,7 @@ body {
 .logo_container {
     height: 35px;
     display: flex;
-    justify-content: center;
-    gap: 8px;
+    align-items: center;
 }
 .left_header {
     display: flex;
@@ -38,4 +37,53 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 60px;
+}
+.shopping_icon {
+    width: 22px;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1px;
+}
+.bird_container {
+    display: flex;
+    max-width: 1440px;
+    height: 620px;
+    padding: 0 165px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.bird_image {
+    width: 540px;
+    height: 620px;
+}
+.info_title {
+    width: 500px;
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.ink_color{
+    color: #598D66;
+}
+.bird_info_container {
+    width: 500px;
+    height: 331px;
+}
+.title_text {
+    color: #86928B;
+    font-family: Raleway;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.title_btn {
+    border: 1px solid #598D66;
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 20px;
+    padding: 16px 60px;
+    display: inline-flex;
 }
