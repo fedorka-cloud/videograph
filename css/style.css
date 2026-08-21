@@ -1,0 +1,41 @@
+body {
+    max-width: 1440px;
+}
+.shapka {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E1EDE6;
+}
+.logo {
+    width: 35px;
+    height: 35px;
+}
+.logo_text {
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 495px;
+}
+.logo_container {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.left_header {
+    display: flex;
+    align-items: center;
+}
+.right_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
