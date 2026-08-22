@@ -1,195 +1,90 @@
-body {
+p {
+    margin: 0;
+}
+.wrapper {
     max-width: 1440px;
-}
-section {
-    padding: 0 165px;
-}
-.shapka {
-    height: 100px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #E1EDE6;
+    flex-direction: column;
 }
-.logo {
+.logo-png{
     width: 35px;
     height: 35px;
 }
-.logo_text {
+.market_logo {
+    width: 24px;
+    height: 24px;
+}
+.logo_name {
     color: #598D66;
     font-family: Raleway;
     font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
 }
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.logo_container {
-    height: 35px;
+.left {
     display: flex;
     align-items: center;
+    gap: 8px;
 }
-.left_header {
+.right {
     display: flex;
     align-items: center;
-}
-.right_header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     gap: 60px;
 }
-.shopping_icon {
-    width: 22px;
-    height: 22px;
-    justify-content: center;
-    align-items: center;
+.logo {
     display: flex;
-    padding: 1px;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #E1EDE6;;
 }
-.bird_container {
+.bird-container {
     display: flex;
-    max-width: 1440px;
-    height: 620px;
-    padding: 0 165px;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
-.bird_image {
+.bird_png {
+    flex: 0 1 540px;
+    width: 100%;
+    max-width: 540px;
+    min-width: 0;
+    height: auto;
+    object-fit: contain;
+}
+.bird_text {
     width: 540px;
-    height: 620px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
-.info_title {
-    width: 500px;
+.bird_name {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title-color{
+    color: #598D66;;
+}
+.bird_title{
     color: #2C2D35;
     font-family: Raleway;
     font-size: 60px;
-    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 500;
 }
-.ink_color{
-    color: #598D66;
-}
-.bird_info_container {
-    width: 500px;
-    height: 331px;
-}
-.title_text {
+.bird_description {
     color: #86928B;
     font-family: Raleway;
     font-size: 18px;
-    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 500;
 }
-.title_btn {
-    border: 1px solid #598D66;
-    color: #598D66;
-    font-family: Raleway;
-    font-size: 20px;
-    padding: 16px 60px;
+.bird_btn {
     display: inline-flex;
-}
-.catalog_container {
-    max-width: 1110px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-.catalog_info_left_text {
-    color: #2C2D35;
-    font-family: Raleway;
-    font-size: 40px;
-}
-.catalog_info_right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-}
-.catalog_text_first {
-    color: #F4F6F5;
-    font-family: Raleway;
-    font-size: 20px;
-    background-color: #376B44;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
-.catalog_text {
-    color: #2C2D35;
-    font-family: Raleway;
-    font-size: 20px;
-    background-color: #D4E8D9;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
-.catalog_info {
-    max-width: 1110px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.catalog_product_card {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 1110px;
-    height: 1490px;
-    gap: 30px;
-}
-.catalog_card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    height: 730px;
-    background-color: #E1EDE6;
-}
-.catalog_card_img {
-    width: 310px;
-    height: 422px;
-    margin: 20px 0 0;
-}
-.card_name {
-    color: #86928B;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    margin: 20px 0 10px;
-}
-.card_title {
-    color: #2C2D35;
-    font-family: Raleway;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    margin: 0 0 10px;
-}
-.card_addition {
-    color: #2C2D35;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    margin: 0 0 20px;
-}
-.card_price {
-    color: #598D66;
-    font-family: Raleway;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    margin: 0 0 20px;
-}
-.card_btn {
-    color: #598D66;
     border: 1px solid #598D66;
-    display: flex;
+    color: #598D66;
     padding: 20px 60px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 60px;
 }
