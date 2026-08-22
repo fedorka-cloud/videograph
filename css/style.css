@@ -1,6 +1,9 @@
 body {
     max-width: 1440px;
 }
+section {
+    padding: 0 165px;
+}
 .shapka {
     height: 100px;
     display: flex;
@@ -86,4 +89,107 @@ body {
     font-size: 20px;
     padding: 16px 60px;
     display: inline-flex;
+}
+.catalog_container {
+    max-width: 1110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.catalog_info_left_text {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 40px;
+}
+.catalog_info_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.catalog_text_first {
+    color: #F4F6F5;
+    font-family: Raleway;
+    font-size: 20px;
+    background-color: #376B44;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.catalog_text {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 20px;
+    background-color: #D4E8D9;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.catalog_info {
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.catalog_product_card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1110px;
+    height: 1490px;
+    gap: 30px;
+}
+.catalog_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 730px;
+    background-color: #E1EDE6;
+}
+.catalog_card_img {
+    width: 310px;
+    height: 422px;
+    margin: 20px 0 0;
+}
+.card_name {
+    color: #86928B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+.card_title {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+.card_addition {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
+.card_price {
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
+.card_btn {
+    color: #598D66;
+    border: 1px solid #598D66;
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
 }
