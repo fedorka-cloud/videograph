@@ -24,7 +24,6 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 495px;
 }
 .logo_container {
     height: 35px;
@@ -126,7 +125,8 @@ section {
     border-radius: 20px;
 }
 .catalog_info {
-    width: 1110px;
+    max-width: 1110px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
