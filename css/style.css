@@ -1,11 +1,22 @@
 p {
     margin: 0;
 }
+
+h2 {
+    margin: 0;
+}
+
 .wrapper {
     max-width: 1440px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
+
+main {
+    margin: 0 auto;
+}
+
 .logo-png{
     width: 35px;
     height: 35px;
@@ -87,4 +98,126 @@ p {
     align-items: center;
     justify-content: center;
     width: 60px;
+}
+
+.cards-market {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+}
+
+.countries {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.countries_btn {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.reproduction {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.countries_btn_first_text {
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #376B44;
+    color: #F4F6F5;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.countries_btn_text {
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #D4E8D9;
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card_img {
+    width: 100%;
+    height: auto;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    padding-top: 20px;
+    width: calc((100% - 60px) / 3);
+    box-sizing: border-box;
+    background-color: #E1EDE6;
+}
+
+.card_author {
+    color: #86928B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card_name {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.card_description {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.card_price {
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.card_btn {
+    border: 1px solid #598D66;
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 20px 0 30px 0;
 }
