@@ -6,15 +6,24 @@ h2 {
     margin: 0;
 }
 
+body {
+    margin: 0;
+}
+
 .wrapper {
     max-width: 1440px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    font-family: Raleway;
+
 }
 
 main {
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
 }
 
 .logo-png{
@@ -27,7 +36,6 @@ main {
 }
 .logo_name {
     color: #598D66;
-    font-family: Raleway;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -78,14 +86,12 @@ main {
 }
 .bird_title{
     color: #2C2D35;
-    font-family: Raleway;
     font-size: 60px;
     font-style: normal;
     font-weight: 500;
 }
 .bird_description {
     color: #86928B;
-    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -121,7 +127,6 @@ main {
 
 .reproduction {
     color: #2C2D35;
-    font-family: Raleway;
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
@@ -133,7 +138,6 @@ main {
     border-radius: 20px;
     background-color: #376B44;
     color: #F4F6F5;
-    font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -145,7 +149,6 @@ main {
     border-radius: 20px;
     background: #D4E8D9;
     color: #2C2D35;
-    font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -165,8 +168,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 0 20px;
-    padding-top: 20px;
+    padding: 20px;
     width: calc((100% - 60px) / 3);
     box-sizing: border-box;
     background-color: #E1EDE6;
@@ -174,7 +176,6 @@ main {
 
 .card_author {
     color: #86928B;
-    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -183,7 +184,6 @@ main {
 
 .card_name {
     color: #2C2D35;
-    font-family: Raleway;
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -192,7 +192,6 @@ main {
 
 .card_description {
     color: #2C2D35;
-    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -200,7 +199,6 @@ main {
 
 .card_price {
     color: #598D66;
-    font-family: Raleway;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -210,14 +208,25 @@ main {
 .card_btn {
     border: 1px solid #598D66;
     display: flex;
-    padding: 20px 60px;
+    width: 100%;
+    height: 65px;
     justify-content: center;
     align-items: center;
-    gap: 6px;
     color: #598D66;
-    font-family: Raleway;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    margin: 20px 0 30px 0;
+    flex-shrink: 1;
+}
+
+.card_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
