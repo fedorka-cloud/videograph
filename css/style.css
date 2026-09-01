@@ -339,3 +339,82 @@ main {
     display: flex;
     gap: 30px;
 }
+
+.footer-container {
+    display: flex;
+    background: #E1EDE6;
+    max-height: 168px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-info {
+    display: flex;
+    gap: 115px;
+    align-items: center;
+}
+
+.footer-text {
+    color: #86928B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-title {
+    color: #2C2D35;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 23px 0;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.network-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.network-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.socMedia-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.socMedia-logotips {
+    display: flex;
+    gap: 30px;
+}
+
+.socMedia_text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.media-logo-png {
+    width: 24px;
+    height: 24px;
+}
+
