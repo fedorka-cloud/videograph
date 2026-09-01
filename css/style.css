@@ -312,10 +312,16 @@ main {
     gap: 30px;
 }
 
-.team_container {
+.team_info {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.team_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     padding-bottom: 44px;
 }
 
