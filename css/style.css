@@ -318,6 +318,10 @@ main {
     gap: 20px;
 }
 
+.team_img {
+    width: 40%;
+}
+
 .team_container {
     display: flex;
     flex-direction: column;
@@ -356,7 +360,8 @@ main {
 
 .footer-info {
     display: flex;
-    gap: 115px;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
 }
 
