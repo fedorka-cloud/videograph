@@ -449,6 +449,11 @@ main {
     @media (min-width: 691px) {
         display: none;
     }
+
+    @media (max-width: 691px) {
+        position: relative;
+        right: -9%;
+    }
 }
 
 .footer-logo-text {
@@ -464,3 +469,4 @@ main {
         gap: 20px;
     }
 }
+
