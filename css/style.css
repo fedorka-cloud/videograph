@@ -12,6 +12,7 @@ body {
 
 .section {
     padding: 20px;
+    margin: 0 auto;
 }
 
 .wrapper {
@@ -28,7 +29,6 @@ body {
 }
 
 main {
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 70px;
@@ -180,6 +180,10 @@ main {
     width: calc((100% - 60px) / 3);
     box-sizing: border-box;
     background-color: #E1EDE6;
+
+    @media (max-width: 691px) {
+        width: calc((100% - 30px) / 2);
+    }
 }
 
 .card_author {
@@ -353,16 +357,22 @@ main {
 .footer-container {
     display: flex;
     background: #E1EDE6;
-    max-height: 168px;
+    height: auto;
     justify-content: space-around;
     align-items: center;
 }
 
 .footer-info {
     display: flex;
-    width: 100%;
+    width: 47%;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 691px) {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
 }
 
 .footer-text {
@@ -386,6 +396,12 @@ main {
     flex-direction: column;
     gap: 25px;
     padding: 23px 0;
+
+    @media (max-width: 691px) {
+        display: flex;
+        position: relative;
+        left: -42%;
+    }
 }
 
 .footer-logo {
@@ -429,3 +445,22 @@ main {
     height: 24px;
 }
 
+.footer-logo-text-tablet {
+    @media (min-width: 691px) {
+        display: none;
+    }
+}
+
+.footer-logo-text {
+    @media (max-width: 691px) {
+        display: none;
+    }
+}
+
+.footer-right {
+    @media (max-width: 691px) {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
