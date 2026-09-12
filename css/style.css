@@ -421,6 +421,7 @@ main {
     @media (max-width: 691px) {
         flex-direction: column;
         gap: 15px;
+        width: 100%;
     }
     @media (max-width: 510px) {
         display: flex;
@@ -452,8 +453,11 @@ main {
 
     @media (max-width: 691px) {
         display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         position: relative;
         left: -42%;
+        width: 100%;
     }
     @media (max-width: 510px) {
         display: flex;
