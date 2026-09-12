@@ -90,7 +90,7 @@ main {
     object-fit: contain;
 }
 .bird_text {
-    width: 540px;
+    max-width: 540px;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -362,10 +362,12 @@ main {
     @media (max-width: 690px) {
         width: 75%;
         position: relative;
-        right: -26%;
+        right: 26%;
     }
     @media (max-width: 510px) {
-        width: 50%;
+        width: 65%;
+        position: relative;
+        right: 36%;
     }
 }
 
@@ -403,6 +405,11 @@ main {
     height: auto;
     justify-content: space-around;
     align-items: center;
+
+    @media (max-width: 510px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .footer-info {
@@ -412,9 +419,12 @@ main {
     align-items: center;
 
     @media (max-width: 691px) {
-        display: flex;
         flex-direction: column;
         gap: 15px;
+    }
+    @media (max-width: 510px) {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -445,18 +455,31 @@ main {
         position: relative;
         left: -42%;
     }
+    @media (max-width: 510px) {
+        display: flex;
+        position: initial;
+    }
 }
 
 .footer-logo {
     display: flex;
     align-items: center;
     gap: 8px;
+
+    @media (max-width: 510px) {
+        display: flex;
+    }
 }
 
 .network-container {
     display: flex;
     align-items: flex-start;
     gap: 60px;
+
+    @media (max-width: 510px) {
+        padding-bottom: 6%;
+        border-bottom: 1px solid #C3D1C6;
+    }
 }
 
 .network-text-container {
@@ -470,6 +493,10 @@ main {
     flex-direction: column;
     gap: 10px;
     align-items: center;
+
+    @media (max-width: 510px) {
+        padding: 5% 0 5%;
+    }
 }
 
 .socMedia-logotips {
@@ -481,6 +508,11 @@ main {
     display: flex;
     flex-direction: column;
     gap: 6px;
+
+    @media (max-width: 510px) {
+        display: flex;
+        flex-direction: initial;
+    }
 }
 
 .media-logo-png {
@@ -497,11 +529,19 @@ main {
         position: relative;
         right: -9%;
     }
+
+    @media (max-width: 510px) {
+        display: none;
+
+    }
 }
 
 .footer-logo-text {
     @media (max-width: 691px) {
         display: none;
+    }
+    @media (max-width: 510px) {
+        display: initial;
     }
 }
 
