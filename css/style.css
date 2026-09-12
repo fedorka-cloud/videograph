@@ -57,12 +57,23 @@ main {
     display: flex;
     align-items: center;
     gap: 60px;
+
+    @media (max-width: 510px) {
+        border-top: 1px solid #C3D1C6;
+        padding-top: 2%;
+    }
 }
 .logo {
     display: flex;
     justify-content: space-around;
     height: 100px;
-    background-color: #E1EDE6;;
+    background-color: #E1EDE6;
+
+    @media (max-width: 510px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 .bird-container {
     display: flex;
@@ -125,6 +136,14 @@ main {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
+
+    @media (max-width: 510px) {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        position: relative;
+        left: -12%;
+    }
 }
 
 .countries_btn {
@@ -134,10 +153,16 @@ main {
 }
 
 .reproduction {
+    display: flex;
     color: #2C2D35;
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
+
+    @media (max-width: 510px) {
+        position: relative;
+        left: -14%;
+    }
 }
 
 .countries_btn_first_text {
@@ -276,7 +301,7 @@ main {
     flex-direction: column;
     gap: 60px;
     max-width: 540px;
-    padding: 6%;
+    padding: 5%;
 }
 
 .rectangle_info {
@@ -314,6 +339,15 @@ main {
     justify-content: center;
     align-items: end;
     gap: 30px;
+
+    @media (max-width: 510px) {
+        display: flex;
+        flex-direction: column;
+    }
+    @media (max-width: 690px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .team_info {
@@ -324,6 +358,15 @@ main {
 
 .team_img {
     width: 40%;
+
+    @media (max-width: 690px) {
+        width: 75%;
+        position: relative;
+        right: -26%;
+    }
+    @media (max-width: 510px) {
+        width: 50%;
+    }
 }
 
 .team_container {
